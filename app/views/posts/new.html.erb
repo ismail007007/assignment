@@ -9,12 +9,13 @@
 
     <p>
         <%= f.label :bodyone %>
-        <%= f.file_field(:bodyone, {:class => 'form-control'})%>
+        <%= f.file_field :bodyone, required: true%>
     </p>
     <p>
         <%= f.label :bodytwo %>
-        <%= f.file_field(:bodytwo, {:class => 'form-control'}) %>
+        <%= f.file_field :bodytwo, required: true %>
     </p>
+
 
     <p>
         <%= f.button :"Check Result", class: 'btn btn-primary' %>
