@@ -1,0 +1,9 @@
+<h1> Check History</h1>
+<% @posts.each do |post| %>
+    <div class="well">
+        <p> Check ID: <%= post.id %> </p>
+        <p><%=post.bodyone %></p>
+        <p><%=post.bodytwo %></p>
+        <%= link_to "Check Result", post_path(post), :class => 'btn btn-primary' %>
+    </div>
+<% end %>
