@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.6'
 gem 'text', '~> 1.3', '>= 1.3.1'
-gem 'carrierwave', '~> 0.11.2'
+gem 'carrierwave', '~> 1.3.2'
 gem 'differ', '~> 0.1.2'
 gem 'file_validators'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
